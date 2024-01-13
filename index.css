@@ -1,0 +1,85 @@
+body{
+  background-color: #EFF6FF;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+}
+.main__title{
+  margin-top: 35px;
+}
+.main__img{
+  height: 750px;
+  width: 600px;
+}
+h2{
+    color: #2A4A5C;
+}
+p{
+    color: #7B8A92;
+}
+.line-with-letter {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    border-bottom: 1px solid rgb(179, 173, 173);
+   width: 185px;
+    margin-right: 10px; 
+    
+  }
+  
+  .letter {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .main__logo-1{
+    margin-top: 20px;
+    width: 200px;
+    height: 65px;
+  }
+  .main__logo-2{
+    margin-top: 20px;
+    width: 200px;
+    height: 65px;
+    position: relative;
+    left: 15px;
+  }
+  #form__input-email{
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+    color: #2A4A5C ;
+  }
+  #form__input-password{
+    width: 200px;
+    height: 40px; 
+    font-weight: 600;
+    color: #2A4A5C ;
+  }
+  .main__form__footer-text{
+    width: 250px;
+    color: #7B8A92;
+    background-color: white;
+    box-shadow: 2px 2px 10px #889, -2px -2px 10px #889;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  h3{
+    margin-top: 40px;
+  }
+  .main__form-radio-Container{
+    margin-top: 40px;
+  }
+  button{
+    width: 150px;
+    height: 30px;
+    background-color:#3698FB ;
+    color: white;
+    border: none;
+    margin-top: 30px;
+  }
